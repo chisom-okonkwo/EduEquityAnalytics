@@ -1,39 +1,52 @@
-# Data Analytics Dashboard
+# EduEquityAnalytics
 
-A modern data analytics dashboard built with React, TypeScript, and Material UI. This application provides visualizations and insights for data analysis needs.
+**EduEquityAnalytics** is a web application developed during the JPMorgan Chase **Data for Good Hackathon** to support the **National Education Equity Lab** in expanding their educational programs to Title I and Title II schools in underserved regions.
 
-## Features
+The platform analyzes extensive datasets related to student enrollment, course performance, success rates, drop rates, and more — providing actionable insights to enhance program reach and effectiveness.
 
-- Interactive dashboard with multiple visualization types
-- Data tables for structured information viewing
-- Analytics page for in-depth data analysis
-- Responsive design with a collapsible sidebar
-- Dark/light theme support
+---
 
-## Tech Stack
+## 🚀 Features
 
-- React 18
-- TypeScript
-- Material UI (MUI)
-- React Router
-- Vite (Build tool)
+- **Interactive Dashboard**: Offers multiple visualization types (charts, graphs, etc.) for intuitive data exploration.
+- **Data Tables**: Structured views for detailed dataset inspection.
+- **Analytics Page**: In-depth statistical analysis and trends to inform strategic decisions.
+- **Responsive Design**: Features a collapsible sidebar for optimal usability across devices.
+- **Dark/Light Theme Support**: Enhances user experience with customizable visual themes.
 
-## Prerequisites
+---
 
-- Node.js (v16 or later)
-- npm or yarn
+## 🛠 Tech Stack
+
+- **React 18**: Frontend framework for building dynamic user interfaces.
+- **TypeScript**: Ensures type safety and improved code maintainability.
+- **Material UI (MUI)**: Provides a modern, accessible component library for consistent UI design.
+- **React Router**: Enables seamless navigation between dashboard, tables, and analytics pages.
+- **Vite**: High-performance build tool for fast development and optimized production builds.
+
+---
+
+## 🎯 Purpose
+
+This project aims to empower the **National Education Equity Lab** with data-driven strategies to promote educational equity by identifying opportunities for program expansion in underserved communities.
+
+---
+
 
 ## Getting Started
 
-### Installation
+## 📦 Installation
 
 1. Clone the repository
    ```
-   git clone <repository-url>
-   cd CodeForGood
+   git clone https://github.com/<your-username>/EduEquityAnalytics.git
    ```
-
-2. Install dependencies
+   
+2. Navigate to the project directory:
+   ```
+   cd EduEquityAnalytics
+   ```
+3. Install dependencies
    ```
    # In the main folder
    npm install
@@ -81,7 +94,3 @@ data-analytics-dashboard/
 - `npm run dev` - Start the development server
 - `npm run build` - Build the application for production
 - `npm run preview` - Preview the production build locally
-
-## License
-
-[ISC License](LICENSE)
